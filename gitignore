@@ -1,0 +1,61 @@
+# Data files — never commit market data
+*.csv
+*.pkl
+*.h5
+*.parquet
+*.feather
+
+# OOS lock files — contain strategic information
+*_lock*
+.oos_test_lock*
+
+# Local ARES reports and cache
+.ares/
+~/.ares/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Environment variables — NEVER commit API keys
+.env
+.env.*
+secrets.py
+credentials.py
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Jupyter
+.ipynb_checkpoints
+*.ipynb
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
