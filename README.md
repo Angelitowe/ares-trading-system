@@ -12,7 +12,9 @@ HMM-based regime detection, and cross-asset momentum.
 | Metric | Value |
 |--------|-------|
 | **Sharpe Ratio** (RF-adjusted, Lo 2002) | **1.883** |
-| **P-value** | **0.029** |
+| **P-value** (holdout 2025, n=252)    | **0.029**  |
+| **P-value** (OOS combined 2020–2025) | **< 0.001** |
+| **Bootstrap CI 95%** (OOS combined)  | [1.24 ; 2.83] |
 | **Max Drawdown** | **1.21 %** |
 | **Ann. Return** (leveraged 3.5×) | **+14.0 %** |
 | **Ann. Return** (unlevered) | **+4.0 %** |
